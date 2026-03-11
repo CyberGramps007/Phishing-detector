@@ -290,7 +290,7 @@ export default function PhishingDetector() {
             }}>PHISHING DETECTOR</h1>
           </div>
           <p style={{ margin: 0, color: "#5a7a9a", fontSize: "0.78rem", letterSpacing: "0.12em" }}>
-            TF-IDF VECTORIZER + LOGISTIC REGRESSION // REAL-TIME ANALYSIS ENGINE
+            TF-IDF VECTORIZER + LOGISTIC REGRESSION | REAL-TIME ANALYSIS ENGINE
           </p>
 
           {/* Model info chips */}
@@ -319,7 +319,7 @@ export default function PhishingDetector() {
         {/* ── SAMPLE BUTTONS ── */}
         <div style={{ marginBottom: "1.2rem" }}>
           <div style={{ fontSize: "0.68rem", color: "#5a7a9a", letterSpacing: "0.15em", marginBottom: "0.6rem" }}>
-            // TRY A SAMPLE
+            TRY A SAMPLE
           </div>
           <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
             {SAMPLES.map(s => (
@@ -360,7 +360,7 @@ export default function PhishingDetector() {
               }}>
                 <div style={{ width: "8px", height: "8px", borderRadius: "50%", background: scanning ? "#ff9f43" : "#00c896", boxShadow: `0 0 8px ${scanning ? "#ff9f43" : "#00c896"}`, animation: scanning ? "pulse 0.5s infinite alternate" : "none" }} />
                 <span style={{ fontSize: "0.68rem", color: "#5a7a9a", letterSpacing: "0.15em" }}>
-                  {scanning ? "ANALYZING..." : "INPUT // PASTE EMAIL OR URL"}
+                  {scanning ? "ANALYZING..." : "INPUT | PASTE EMAIL OR URL"}
                 </span>
                 <span style={{ marginLeft: "auto", fontSize: "0.65rem", color: "#3a5a7a" }}>
                   {text.split(/\s+/).filter(Boolean).length} words
